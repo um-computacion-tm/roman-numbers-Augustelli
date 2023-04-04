@@ -4,6 +4,7 @@ from parameterized import parameterized
 
 
 class TestRomanToDecimal(unittest.TestCase):
+    
     def test_I(self):
         resultado = roman_to_decimals('I')
         self.assertEqual(resultado, 1)
@@ -48,6 +49,7 @@ class TestRomanToDecimal(unittest.TestCase):
     def test_XI(self):
         resultado = roman_to_decimals('XI')
         self.assertEqual(resultado,11)
+
 
     def test_XV(self):
         resultado = roman_to_decimals('XV')
